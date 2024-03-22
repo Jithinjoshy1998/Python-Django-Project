@@ -1,0 +1,71 @@
+{%  extends 'Base.html' %}
+
+{% block title %}
+About
+
+{% endblock %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Hospital Name</title>
+    <style>
+        /* CSS styles can be added here or linked externally */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        p {
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>City Hospital</h1>
+    </header>
+    
+    <div class="container">
+        <h2>Welcome to Our Hospital</h2>
+        <p>City Hospital is a trusted healthcare provider dedicated to serving the residents of our vibrant community. Located in the heart of [City Name], we have been providing compassionate and comprehensive medical care for over [XX] years.</p>
+        <p>At City Hospital, we understand that healthcare is not just about treating illnesses; it's about caring for people. Our team of highly skilled doctors, nurses, and staff are committed to delivering personalized care with empathy and respect.</p>
+        <p>We offer a wide range of medical services, including emergency care, primary care, specialty services, diagnostic imaging, and surgical procedures. With state-of-the-art facilities and cutting-edge technology, we strive to deliver the highest quality care to our patients.</p>
+        <p>Our mission is to improve the health and well-being of our community by providing accessible, affordable, and high-quality healthcare services. We are dedicated to fostering a culture of innovation, continuous improvement, and patient-centered care.</p>
+        <p>Thank you for choosing City Hospital for your healthcare needs. We are honored to serve you and your family.</p>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Hospital Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+{% endblock %}
